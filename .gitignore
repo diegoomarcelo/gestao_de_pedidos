@@ -1,0 +1,5 @@
+/package.json
+/package-lock.json
+/Documentação_Teste_Software.pdf
+node_modules/
+coverage/
