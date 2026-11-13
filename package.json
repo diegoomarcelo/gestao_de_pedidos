@@ -1,0 +1,13 @@
+{
+  "name": "gestao-de-pedidos",
+  "version": "1.0.0",
+  "description": "Regras de negócio de e-commerce (produtos, carrinho, cupons, frete e pedido) com testes unitários em Jest.",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
