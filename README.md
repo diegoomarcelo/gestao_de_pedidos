@@ -80,6 +80,7 @@ gestao_de_pedidos/
 │   ├── carrinho.test.js   # 16 casos
 │   └── pedido.test.js     # 12 casos
 ├── index.html · style.css · interface.js
+└── package.json        # Jest e scripts npm test / test:coverage
 ```
 
 ## 💡 Decisões técnicas
@@ -100,8 +101,8 @@ gestao_de_pedidos/
 | **Total** | | **51** | **51 aprovados · 100% de cobertura** (statements, branches, functions, lines) |
 
 ```bash
-npx jest              # roda os testes
-npx jest --coverage   # roda e gera o relatório de cobertura
+npm test                # roda os testes
+npm run test:coverage   # roda e gera o relatório de cobertura
 ```
 
 ## 🚀 Como rodar localmente
@@ -111,14 +112,14 @@ npx jest --coverage   # roda e gera o relatório de cobertura
 ```bash
 git clone https://github.com/diegoomarcelo/gestao_de_pedidos.git
 cd gestao_de_pedidos
-npx jest --coverage
+npm install
+npm test
 ```
 
 Para usar a interface, abra o `index.html` no navegador.
 
 ## 🗺️ Próximos passos
 
-- [ ] Adicionar `package.json` com Jest como dependência de desenvolvimento e script `npm test`.
 - [ ] Rodar os testes automaticamente a cada push com GitHub Actions.
 
 ## 👤 Autor
